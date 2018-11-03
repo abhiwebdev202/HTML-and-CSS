@@ -1,0 +1,57 @@
+body{
+    background: #95a5a6;
+    margin: 0;
+}
+.menu{
+    background: #34495e;
+    width: 100%;
+    overflow: auto;
+}
+.menu ul{
+    list-style: none;
+    line-height: 64px;
+    margin: 0;
+    padding: 0;
+}
+.menu li{
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-align: center;
+    background: #34495e;
+    width: 140px;
+    color: #f2f1ef;
+    display: block;
+    font-family:'Bree Serif', serif;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+.menu li a:hover{
+    font-size: 21px;
+    color: #59abe3;
+    opacity: 0.5;
+}
+.search-form{
+    float: right;
+    margin-right: 120px;
+    margin-top: 20px;
+}
+input[type="text"]{
+    border: none;
+    padding: 6px;
+    font-family: 'Bree Serif', serif;
+    font-size: 15px;
+}
+button{
+    background: #947cb0;
+    color: #fff9de;
+    font-size: 15px;
+    font-family:'Bree Serif', serif;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    position: relative;
+    float: right;
+}

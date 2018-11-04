@@ -1,0 +1,51 @@
+body{
+    background-image: url(Lighthouse-photo-1532771.JPEG);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.menu{
+    background: #24252a;
+    margin-top: 40px;
+    height: 64px;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 50%;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#e4f1fe;
+    line-height: 44px;
+    padding: 10px 16px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;         
+}
+.menu a:hover{
+    font-size: 20px;
+    color: #c5eff7;
+    opacity: 0.5;
+}
+input[type=text]{
+    background-image: url(search.JPG); 
+    background-repeat: no-repeat;
+    background-position: 12px 10px;
+    border-radius: 25px;
+    padding: 12px 20px 14px 42px;
+    outline: none;
+    margin-top: 9px;
+    width: 180px;
+    transition: width 0.7s ease-in-out;
+}
+input[type=text]:focus{
+    width: 440px;
+}

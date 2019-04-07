@@ -1,0 +1,34 @@
+.newsletter{
+    padding: 90px 0px;
+    background-color: #f45c42;
+}
+
+.newsletter .content{
+    max-width: 640px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.newsletter .content h2{
+    color: #302e2e;
+    margin-bottom: 40px;
+}
+
+.newsletter .content .form-control{
+    border-color: #e5dcdc;
+    border-radius: 0;
+    height: 48px;
+}
+
+.newsletter .content .form-control:focus{
+    border: 3px solid #680505;
+    box-shadow: none;
+}
+
+.newsletter .content .btn{
+    font-weight: 600;
+    background-color: #af0a0a;
+    color: #e5dcdc;
+    min-height: 48px;
+    border-radius: 0;
+}
